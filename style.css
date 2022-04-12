@@ -2,7 +2,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h3, ul {
+h1, h3, ul, p{
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -33,12 +34,22 @@ li {
 }
 
 
-//.intro {
+.intro {
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-//.text-left {
-    display: flex;
-    flex-direction: row;
+.sign-up {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 2px 20px;
+    margin-top: 8px;
 }
 
+#intro-img {
+    width: 500px;
+    background-color: grey;
+}
