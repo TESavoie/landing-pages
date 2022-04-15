@@ -54,3 +54,29 @@ li {
     background-color: grey;
 }
 
+.info {
+    text-align: center;
+    padding: 60px, 100px, 100px;
+}
+
+.info-header{
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info-box {
+    max-width: 100px;
+}
+
+.info-img {
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
