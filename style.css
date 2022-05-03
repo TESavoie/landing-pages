@@ -101,10 +101,22 @@ blockquote {
     padding: 30px 100px;
     border-radius: 8px;
     display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
 .sign-up-button {
-    border: 10px solid white;
+    border: 1px solid white;
     border-radius: 5px;
-    padding: 2px 8px;
+    padding: 2px 15px;
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
 }
